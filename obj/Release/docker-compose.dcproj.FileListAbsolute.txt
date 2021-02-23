@@ -1,0 +1,9 @@
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/bin/Release/Shopping.Client.Views.dll
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/bin/Release/Shopping.Client.Views.pdb
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/bin/Release/appsettings.Development.json
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/bin/Release/appsettings.json
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/bin/Release/Shopping.Client.dll
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/bin/Release/Shopping.Client.pdb
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/obj/Release/docker-compose.dcprojAssemblyReference.cache
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/obj/Release/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/obj/Release/docker-compose.dcproj.CopyComplete

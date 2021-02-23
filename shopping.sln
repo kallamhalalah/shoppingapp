@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Client", "Shopping.Client\Shopping.Client.csproj", "{88F724B3-A873-4A74-B15E-B4CBB9952DBA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{7EA3206F-155F-4D2C-915E-203DA8E8C636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Debug|x64.Build.0 = Debug|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Debug|x86.Build.0 = Debug|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Release|x64.ActiveCfg = Release|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Release|x64.Build.0 = Release|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Release|x86.ActiveCfg = Release|Any CPU
+		{88F724B3-A873-4A74-B15E-B4CBB9952DBA}.Release|x86.Build.0 = Release|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Debug|x64.Build.0 = Debug|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Debug|x86.Build.0 = Debug|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Release|x64.ActiveCfg = Release|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Release|x64.Build.0 = Release|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Release|x86.ActiveCfg = Release|Any CPU
+		{7EA3206F-155F-4D2C-915E-203DA8E8C636}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
