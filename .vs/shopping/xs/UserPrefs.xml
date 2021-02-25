@@ -1,22 +1,29 @@
-﻿<Properties StartupConfiguration="{88F724B3-A873-4A74-B15E-B4CBB9952DBA}|Default">
+﻿<Properties StartupConfiguration="{7EA3206F-155F-4D2C-915E-203DA8E8C636}|Default">
+  <MonoDevelop.Ide.ItemProperties.Shopping.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Shopping.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shopping.Client/Views/Home/Index.cshtml">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Shopping.Client/Views/Home/Index.cshtml" Line="7" Column="18" />
+      <File FileName="docker-compose.yml" Line="18" Column="45" />
+      <File FileName="Shopping.API/Data/ProductContext.cs" />
+      <File FileName="Shopping.API/appsettings.json" />
+      <File FileName="Shopping.Client/Properties/launchSettings.json" />
+      <File FileName="Shopping.Client/appsettings.json" />
+      <File FileName="Shopping.Client/Startup.cs" />
+      <File FileName="docker-compose.override.yml" Line="21" Column="17" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="shopping" expanded="True">
+          <Node name="shopping" expanded="True" selected="True">
             <Node name="docker-compose" expanded="True">
               <Node name="docker-compose.yml" expanded="True" />
             </Node>
-            <Node name="Shopping.Client" expanded="True" selected="True">
-              <Node name="Controllers" expanded="True" />
+            <Node name="Shopping.API" expanded="True">
+              <Node name="Data" expanded="True" />
               <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
-              </Node>
+            </Node>
+            <Node name="Shopping.Client" expanded="True">
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>
@@ -24,10 +31,17 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MultiItemStartupConfigurations />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{EF0832B3-87E3-44E3-BF78-55A7884D7B58}" ItemName="Shopping.API" ConfigurationId="Default" />
+        <StartupItem ItemId="{88F724B3-A873-4A74-B15E-B4CBB9952DBA}" ItemName="Shopping.Client" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>

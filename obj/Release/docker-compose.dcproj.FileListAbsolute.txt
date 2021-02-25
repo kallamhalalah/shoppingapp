@@ -7,3 +7,4 @@
 /Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/obj/Release/docker-compose.dcprojAssemblyReference.cache
 /Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/obj/Release/docker-compose.dcproj.CoreCompileInputs.cache
 /Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/obj/Release/docker-compose.dcproj.CopyComplete
+/Users/khaledallamabdalla/Documents/dev/learn/microservices/DotNetMicroservicesWithK8s/zTest/shopping/bin/Release/Newtonsoft.Json.dll
