@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: shoppingapi-configmap
+  namespace: default
+data:
+  shopping_api_url: http://shoppingapi:46499

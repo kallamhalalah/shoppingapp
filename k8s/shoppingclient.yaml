@@ -29,7 +29,10 @@ spec:
         - name: ASPNETCORE_ENVIRONMENT
           value: Development
         - name: ShoppingAPIUrl
-          value: http://shoppingapi:46499
+          valueFrom:
+            configMapKeyRef:
+              name: shoppingapi-configmap
+              key: shopping_api_url
         ports:
         - containerPort: 80
           name: shoppingclient
