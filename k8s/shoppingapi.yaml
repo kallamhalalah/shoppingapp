@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shoppingapi
+  namespace: default
+  labels:
+    app: shoppingapi
+spec:
+  selector:
+    matchLabels:
+      app: shoppingapi
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: shoppingapi
+    spec:
+      containers:
+      - name: shoppingapi
+        image: kallamhalalah/shoppingapi
+        resources:
+          requests:
+            cpu: 250m
+            memory: 64Mi
+          limits:
+            cpu: 500m
+            memory: 128Mi
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: Development
+        - name: DatabaseSettings__ConnectionString
+          valueFrom:
+            configMapKeyRef:
+              name: mongo-configmap
+              key: connection_string
+        ports:
+        - containerPort: 80
+          name: shoppingapi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: shoppingapi
+  namespace: default
+spec:
+  selector:
+    app: shoppingapi
+  type: NodePort
+  ports:
+  - port: 46499
+    targetPort: 80
+    protocol: TCP
+    nodePort: 31001

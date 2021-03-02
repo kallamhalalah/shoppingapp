@@ -1,0 +1,7 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: mongo-configmap
+  namespace: default
+data:
+  connection_string: mongodb://test:test@mongo-service:27017

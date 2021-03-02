@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shoppingclient
+  namespace: default
+  labels:
+    app: shoppingclient
+spec:
+  selector:
+    matchLabels:
+      app: shoppingclient
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: shoppingclient
+    spec:
+      containers:
+      - name: shoppingclient
+        image: kallamhalalah/shoppingclient
+        resources:
+          requests:
+            cpu: 250m
+            memory: 64Mi
+          limits:
+            cpu: 500m
+            memory: 128Mi
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: Development
+        - name: ShoppingAPIUrl
+          value: http://shoppingapi:46499
+        ports:
+        - containerPort: 80
+          name: shoppingclient
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: shoppingclient
+  namespace: default
+spec:
+  selector:
+    app: shoppingclient
+  type: NodePort
+  ports:
+  - port: 64163
+    targetPort: 80
+    protocol: TCP
+    nodePort: 31002
